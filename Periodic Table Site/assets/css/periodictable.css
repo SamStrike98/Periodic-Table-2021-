@@ -1,0 +1,146 @@
+body {
+	background: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#myInput { 
+	width: 200px;
+	border-radius: 5px;
+ }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.highlight {
+	background-color: white !important;
+	color: black;
+}
+
+.buttonhighlight{
+	background-color: red !important;
+}
+
+#container {
+	text-align: center;
+	width: 1280px;
+	margin: auto;
+
+}
+
+.buttons{
+	margin:auto;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	}
+
+
+ul {
+	margin: 5px auto;
+	padding: 0px;
+	
+}
+
+
+li {
+	display: inline-block;
+	color: white;
+	border: 5px black solid;
+	border-radius: 10px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	cursor: pointer;
+}
+
+.row {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: auto;
+
+}
+
+.invisible {
+	opacity: 0;
+}
+
+.alkali {
+	background-color: red;
+}
+
+.alkaline {
+	background-color: orange;
+}
+
+.lanthanides {
+	background-color: rgba(86, 166, 240);
+}
+
+.actinides {
+	background-color: rgba(55, 219, 121)
+}
+
+.transitionmetals {
+	background-color: rgba(11, 169, 171)
+}
+
+.noblegases {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: purple;
+}
+
+.othernonmetals {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: green;
+}
+
+.posttransitionmetals {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: blue;
+}
+
+.metalloids {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: brown;
+}
+
+.halogens {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: pink;
+}
+
+.unknown {
+	/*background-color: rgba(11, 169, 171)*/
+	background-color: grey;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+}
+
+button:hover {
+	background-color: blue !important;
+}
+
+.number {
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+	top: -2px;
+	right: 5px;
+}
+
